@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-const _0715e3c4 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _a6a0ecfa = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 Vue.use(Router)
 
@@ -64,7 +64,7 @@ export function createRouter () {
     routes: [
 		{
 			path: "/",
-			component: _0715e3c4,
+			component: _a6a0ecfa,
 			name: "index"
 		}
     ],
